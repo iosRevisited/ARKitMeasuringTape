@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244846011F45774900E27598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846001F45774900E27598 /* AppDelegate.swift */; };
+		244846051F45774900E27598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846041F45774900E27598 /* ViewController.swift */; };
+		244846081F45774900E27598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244846061F45774900E27598 /* Main.storyboard */; };
+		2448460A1F45774900E27598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244846091F45774900E27598 /* Assets.xcassets */; };
+		2448460D1F45774900E27598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2448460B1F45774900E27598 /* LaunchScreen.storyboard */; };
+		244846181F45774900E27598 /* ARKitMeasuringTapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846171F45774900E27598 /* ARKitMeasuringTapeTests.swift */; };
+		244846231F45774900E27598 /* ARKitMeasuringTapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846221F45774900E27598 /* ARKitMeasuringTapeUITests.swift */; };
+		244846321F45812C00E27598 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846301F45812A00E27598 /* Utilities.swift */; };
+		244846351F45814F00E27598 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846341F45814F00E27598 /* FocusSquare.swift */; };
+		244846391F45824E00E27598 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 244846381F45824E00E27598 /* Models.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		244846141F45774900E27598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244845F51F45774900E27598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244845FC1F45774900E27598;
+			remoteInfo = ARKitMeasuringTape;
+		};
+		2448461F1F45774900E27598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244845F51F45774900E27598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244845FC1F45774900E27598;
+			remoteInfo = ARKitMeasuringTape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244845FD1F45774900E27598 /* ARKitMeasuringTape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitMeasuringTape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244846001F45774900E27598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		244846041F45774900E27598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		244846071F45774900E27598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244846091F45774900E27598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2448460C1F45774900E27598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2448460E1F45774900E27598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244846131F45774900E27598 /* ARKitMeasuringTapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitMeasuringTapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244846171F45774900E27598 /* ARKitMeasuringTapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitMeasuringTapeTests.swift; sourceTree = "<group>"; };
+		244846191F45774900E27598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2448461E1F45774900E27598 /* ARKitMeasuringTapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitMeasuringTapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244846221F45774900E27598 /* ARKitMeasuringTapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitMeasuringTapeUITests.swift; sourceTree = "<group>"; };
+		244846241F45774900E27598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244846301F45812A00E27598 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../../Downloads/PlacingObjects/ARKitExample/Utilities.swift; sourceTree = "<group>"; };
+		244846341F45814F00E27598 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FocusSquare.swift; path = "../../../Downloads/MeasureThings-master/MeasureThings/Apple/FocusSquare.swift"; sourceTree = "<group>"; };
+		244846381F45824E00E27598 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Models.scnassets; path = ../../../Desktop/Models.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244845FA1F45774900E27598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244846101F45774900E27598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2448461B1F45774900E27598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244845F41F45774900E27598 = {
+			isa = PBXGroup;
+			children = (
+				244845FF1F45774900E27598 /* ARKitMeasuringTape */,
+				244846161F45774900E27598 /* ARKitMeasuringTapeTests */,
+				244846211F45774900E27598 /* ARKitMeasuringTapeUITests */,
+				244845FE1F45774900E27598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244845FE1F45774900E27598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244845FD1F45774900E27598 /* ARKitMeasuringTape.app */,
+				244846131F45774900E27598 /* ARKitMeasuringTapeTests.xctest */,
+				2448461E1F45774900E27598 /* ARKitMeasuringTapeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244845FF1F45774900E27598 /* ARKitMeasuringTape */ = {
+			isa = PBXGroup;
+			children = (
+				244846001F45774900E27598 /* AppDelegate.swift */,
+				244846041F45774900E27598 /* ViewController.swift */,
+				244846301F45812A00E27598 /* Utilities.swift */,
+				244846341F45814F00E27598 /* FocusSquare.swift */,
+				244846061F45774900E27598 /* Main.storyboard */,
+				244846091F45774900E27598 /* Assets.xcassets */,
+				244846381F45824E00E27598 /* Models.scnassets */,
+				2448460B1F45774900E27598 /* LaunchScreen.storyboard */,
+				2448460E1F45774900E27598 /* Info.plist */,
+			);
+			path = ARKitMeasuringTape;
+			sourceTree = "<group>";
+		};
+		244846161F45774900E27598 /* ARKitMeasuringTapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				244846171F45774900E27598 /* ARKitMeasuringTapeTests.swift */,
+				244846191F45774900E27598 /* Info.plist */,
+			);
+			path = ARKitMeasuringTapeTests;
+			sourceTree = "<group>";
+		};
+		244846211F45774900E27598 /* ARKitMeasuringTapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				244846221F45774900E27598 /* ARKitMeasuringTapeUITests.swift */,
+				244846241F45774900E27598 /* Info.plist */,
+			);
+			path = ARKitMeasuringTapeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244845FC1F45774900E27598 /* ARKitMeasuringTape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244846271F45774900E27598 /* Build configuration list for PBXNativeTarget "ARKitMeasuringTape" */;
+			buildPhases = (
+				244845F91F45774900E27598 /* Sources */,
+				244845FA1F45774900E27598 /* Frameworks */,
+				244845FB1F45774900E27598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKitMeasuringTape;
+			productName = ARKitMeasuringTape;
+			productReference = 244845FD1F45774900E27598 /* ARKitMeasuringTape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		244846121F45774900E27598 /* ARKitMeasuringTapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2448462A1F45774900E27598 /* Build configuration list for PBXNativeTarget "ARKitMeasuringTapeTests" */;
+			buildPhases = (
+				2448460F1F45774900E27598 /* Sources */,
+				244846101F45774900E27598 /* Frameworks */,
+				244846111F45774900E27598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244846151F45774900E27598 /* PBXTargetDependency */,
+			);
+			name = ARKitMeasuringTapeTests;
+			productName = ARKitMeasuringTapeTests;
+			productReference = 244846131F45774900E27598 /* ARKitMeasuringTapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2448461D1F45774900E27598 /* ARKitMeasuringTapeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2448462D1F45774900E27598 /* Build configuration list for PBXNativeTarget "ARKitMeasuringTapeUITests" */;
+			buildPhases = (
+				2448461A1F45774900E27598 /* Sources */,
+				2448461B1F45774900E27598 /* Frameworks */,
+				2448461C1F45774900E27598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244846201F45774900E27598 /* PBXTargetDependency */,
+			);
+			name = ARKitMeasuringTapeUITests;
+			productName = ARKitMeasuringTapeUITests;
+			productReference = 2448461E1F45774900E27598 /* ARKitMeasuringTapeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244845F51F45774900E27598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sai Sandeep";
+				TargetAttributes = {
+					244845FC1F45774900E27598 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					244846121F45774900E27598 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 244845FC1F45774900E27598;
+					};
+					2448461D1F45774900E27598 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 244845FC1F45774900E27598;
+					};
+				};
+			};
+			buildConfigurationList = 244845F81F45774900E27598 /* Build configuration list for PBXProject "ARKitMeasuringTape" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244845F41F45774900E27598;
+			productRefGroup = 244845FE1F45774900E27598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244845FC1F45774900E27598 /* ARKitMeasuringTape */,
+				244846121F45774900E27598 /* ARKitMeasuringTapeTests */,
+				2448461D1F45774900E27598 /* ARKitMeasuringTapeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244845FB1F45774900E27598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2448460D1F45774900E27598 /* LaunchScreen.storyboard in Resources */,
+				2448460A1F45774900E27598 /* Assets.xcassets in Resources */,
+				244846391F45824E00E27598 /* Models.scnassets in Resources */,
+				244846081F45774900E27598 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244846111F45774900E27598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2448461C1F45774900E27598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244845F91F45774900E27598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244846321F45812C00E27598 /* Utilities.swift in Sources */,
+				244846351F45814F00E27598 /* FocusSquare.swift in Sources */,
+				244846051F45774900E27598 /* ViewController.swift in Sources */,
+				244846011F45774900E27598 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2448460F1F45774900E27598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244846181F45774900E27598 /* ARKitMeasuringTapeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2448461A1F45774900E27598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244846231F45774900E27598 /* ARKitMeasuringTapeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		244846151F45774900E27598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244845FC1F45774900E27598 /* ARKitMeasuringTape */;
+			targetProxy = 244846141F45774900E27598 /* PBXContainerItemProxy */;
+		};
+		244846201F45774900E27598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244845FC1F45774900E27598 /* ARKitMeasuringTape */;
+			targetProxy = 2448461F1F45774900E27598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		244846061F45774900E27598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244846071F45774900E27598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2448460B1F45774900E27598 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2448460C1F45774900E27598 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		244846251F45774900E27598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		244846261F45774900E27598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244846281F45774900E27598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P326DL8696;
+				INFOPLIST_FILE = ARKitMeasuringTape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosRevisited.ARKitMeasuringTape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		244846291F45774900E27598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P326DL8696;
+				INFOPLIST_FILE = ARKitMeasuringTape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosRevisited.ARKitMeasuringTape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2448462B1F45774900E27598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P326DL8696;
+				INFOPLIST_FILE = ARKitMeasuringTapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosRevisited.ARKitMeasuringTapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKitMeasuringTape.app/ARKitMeasuringTape";
+			};
+			name = Debug;
+		};
+		2448462C1F45774900E27598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P326DL8696;
+				INFOPLIST_FILE = ARKitMeasuringTapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosRevisited.ARKitMeasuringTapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKitMeasuringTape.app/ARKitMeasuringTape";
+			};
+			name = Release;
+		};
+		2448462E1F45774900E27598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P326DL8696;
+				INFOPLIST_FILE = ARKitMeasuringTapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosRevisited.ARKitMeasuringTapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKitMeasuringTape;
+			};
+			name = Debug;
+		};
+		2448462F1F45774900E27598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P326DL8696;
+				INFOPLIST_FILE = ARKitMeasuringTapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosRevisited.ARKitMeasuringTapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKitMeasuringTape;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244845F81F45774900E27598 /* Build configuration list for PBXProject "ARKitMeasuringTape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244846251F45774900E27598 /* Debug */,
+				244846261F45774900E27598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244846271F45774900E27598 /* Build configuration list for PBXNativeTarget "ARKitMeasuringTape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244846281F45774900E27598 /* Debug */,
+				244846291F45774900E27598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2448462A1F45774900E27598 /* Build configuration list for PBXNativeTarget "ARKitMeasuringTapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2448462B1F45774900E27598 /* Debug */,
+				2448462C1F45774900E27598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2448462D1F45774900E27598 /* Build configuration list for PBXNativeTarget "ARKitMeasuringTapeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2448462E1F45774900E27598 /* Debug */,
+				2448462F1F45774900E27598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244845F51F45774900E27598 /* Project object */;
+}
