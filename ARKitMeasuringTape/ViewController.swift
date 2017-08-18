@@ -101,6 +101,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 }
                 
                 if startPoint == nil {
+                     focusSquare.hide()
                     startPoint = hitPointPosition
                     let node = createCrossNode(size: 0.01, color:UIColor.blue, horizontal:false)
                     node.position = startPoint!
@@ -116,7 +117,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 }
                 
                 if endPoint != nil {
-                    
+                    setupFocusSquare()
                     let distance = self.getDistanceBetween(startPoint: startPoint!, endPoint: endPoint!)
                     distanceLabel.text = String(format: "Distance(Approx) = %.2f cm",distance! * 100)
                     
