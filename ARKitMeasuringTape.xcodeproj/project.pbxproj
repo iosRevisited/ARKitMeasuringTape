@@ -14,9 +14,6 @@
 		2448460D1F45774900E27598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2448460B1F45774900E27598 /* LaunchScreen.storyboard */; };
 		244846181F45774900E27598 /* ARKitMeasuringTapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846171F45774900E27598 /* ARKitMeasuringTapeTests.swift */; };
 		244846231F45774900E27598 /* ARKitMeasuringTapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846221F45774900E27598 /* ARKitMeasuringTapeUITests.swift */; };
-		244846321F45812C00E27598 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846301F45812A00E27598 /* Utilities.swift */; };
-		244846351F45814F00E27598 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244846341F45814F00E27598 /* FocusSquare.swift */; };
-		244846391F45824E00E27598 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 244846381F45824E00E27598 /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2414987D1F4BE60B004CE0C0 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Models.scnassets; path = "Measuring Tape Req/Models.scnassets"; sourceTree = SOURCE_ROOT; };
+		2414987E1F4BE60B004CE0C0 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FocusSquare.swift; path = "Measuring Tape Req/FocusSquare.swift"; sourceTree = SOURCE_ROOT; };
+		2414987F1F4BE60B004CE0C0 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = "Measuring Tape Req/Utilities.swift"; sourceTree = SOURCE_ROOT; };
 		244845FD1F45774900E27598 /* ARKitMeasuringTape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitMeasuringTape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		244846001F45774900E27598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		244846041F45774900E27598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,9 +50,6 @@
 		2448461E1F45774900E27598 /* ARKitMeasuringTapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitMeasuringTapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		244846221F45774900E27598 /* ARKitMeasuringTapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitMeasuringTapeUITests.swift; sourceTree = "<group>"; };
 		244846241F45774900E27598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		244846301F45812A00E27598 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../../Downloads/PlacingObjects/ARKitExample/Utilities.swift; sourceTree = "<group>"; };
-		244846341F45814F00E27598 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FocusSquare.swift; path = "../../../Downloads/MeasureThings-master/MeasureThings/Apple/FocusSquare.swift"; sourceTree = "<group>"; };
-		244846381F45824E00E27598 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Models.scnassets; path = ../../../Desktop/Models.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +100,13 @@
 		244845FF1F45774900E27598 /* ARKitMeasuringTape */ = {
 			isa = PBXGroup;
 			children = (
+				2414987E1F4BE60B004CE0C0 /* FocusSquare.swift */,
+				2414987D1F4BE60B004CE0C0 /* Models.scnassets */,
+				2414987F1F4BE60B004CE0C0 /* Utilities.swift */,
 				244846001F45774900E27598 /* AppDelegate.swift */,
 				244846041F45774900E27598 /* ViewController.swift */,
-				244846301F45812A00E27598 /* Utilities.swift */,
-				244846341F45814F00E27598 /* FocusSquare.swift */,
 				244846061F45774900E27598 /* Main.storyboard */,
 				244846091F45774900E27598 /* Assets.xcassets */,
-				244846381F45824E00E27598 /* Models.scnassets */,
 				2448460B1F45774900E27598 /* LaunchScreen.storyboard */,
 				2448460E1F45774900E27598 /* Info.plist */,
 			);
@@ -240,7 +237,6 @@
 			files = (
 				2448460D1F45774900E27598 /* LaunchScreen.storyboard in Resources */,
 				2448460A1F45774900E27598 /* Assets.xcassets in Resources */,
-				244846391F45824E00E27598 /* Models.scnassets in Resources */,
 				244846081F45774900E27598 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				244846321F45812C00E27598 /* Utilities.swift in Sources */,
-				244846351F45814F00E27598 /* FocusSquare.swift in Sources */,
 				244846051F45774900E27598 /* ViewController.swift in Sources */,
 				244846011F45774900E27598 /* AppDelegate.swift in Sources */,
 			);
@@ -536,6 +530,7 @@
 				244846291F45774900E27598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2448462A1F45774900E27598 /* Build configuration list for PBXNativeTarget "ARKitMeasuringTapeTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +539,7 @@
 				2448462C1F45774900E27598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2448462D1F45774900E27598 /* Build configuration list for PBXNativeTarget "ARKitMeasuringTapeUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +548,7 @@
 				2448462F1F45774900E27598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
